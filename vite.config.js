@@ -13,4 +13,8 @@ export default defineConfig({
       localsConvention: 'camelCaseOnly',
     },
   },
+  server: {
+    port: 9211,
+  },
+  
 })

@@ -3,10 +3,11 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage":"/admin.noble",
   "scripts": {
     "chalu-kar": "vite",
     "build": "vite build",
-    "build:prod": "env-cmd -f .prod.env vite build",
+    "build:prod": "env-cmd -f .env.prod vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
